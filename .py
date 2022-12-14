@@ -62,3 +62,32 @@ else:
         #lookup[num] = i
 #print("index1=%d, index2=%d" % py_solution().twoSum((12,55,33,565,3)))            
 
+#numbers = []
+#for i in range(0,5):
+    #inputNumber = int(input("Enter a number: "))
+    #numbers.append(inputNumber)
+    #print(numbers)
+#print("--------------->")    
+ 
+numbers = [10,20,30,40,50,60,70]
+target = 50
+for i in range(0, len(numbers)-1):
+    sum = numbers[i] + numbers+i
+    #
+for i in numbers:
+    if (i> max):
+            max = i
+    print(max)        
+
+ 
+numbers = []
+for i in range(0,5):
+   inputNumber = int(input("Enter a number: "))
+   numbers.append(inputNumber)
+ 
+max = 0
+for i in numbers:
+   if (i > max):
+       max = i
+ 
+print(max)
